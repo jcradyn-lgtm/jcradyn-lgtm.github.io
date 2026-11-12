@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Data deletion request — Arrow Out</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --ink: #12161f;
+      --muted: #4b5563;
+      --line: #dfe3ea;
+      --accent: #0f766e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0f17;
+        --card: #111827;
+        --ink: #e8edf5;
+        --muted: #a5b0c2;
+        --line: #263041;
+        --accent: #5eead4;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 32px clamp(20px, 5vw, 48px);
+    }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 4px; }
+    h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+    p, li { color: var(--ink); }
+    .updated { color: var(--muted); font-size: .9rem; margin: 0 0 24px; }
+    a { color: var(--accent); }
+    ul { padding-left: 1.25rem; }
+    li { margin: 6px 0; }
+    .note {
+      border-left: 3px solid var(--accent);
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Data deletion request</h1>
+  <p class="updated">Arrow Out · Effective 12 November 2026</p>
+
+  <p>
+    Arrow Out does not require an account, and the developer runs no server.
+    Almost all data stays on your device, and you can delete it yourself at any
+    time.
+  </p>
+
+  <h2>Game data stored on your device</h2>
+  <p>
+    Your progress, stars, coins, daily-challenge state, and settings are stored
+    only in the app's local storage. Delete them by any of these methods:
+  </p>
+  <ul>
+    <li>In the app: <strong>Settings → Reset progress</strong>, then
+      <strong>Yes, reset everything</strong>.</li>
+    <li>Android: <strong>Settings → Apps → Arrow Out → Storage → Clear data</strong>.</li>
+    <li>Uninstall the app.</li>
+  </ul>
+  <p>
+    The developer holds no copy of this data and cannot read or recover it.
+  </p>
+
+  <h2>Advertising data</h2>
+  <p>
+    Ads are served by Google AdMob. Google receives device identifiers
+    (including your Android advertising ID), approximate location derived from
+    your IP address, and ad interactions. The developer does not receive or
+    store this data. To delete or reset it:
+  </p>
+  <ul>
+    <li>Android: <strong>Settings → Google → Ads</strong> — delete or reset your
+      advertising ID and opt out of personalised advertising.</li>
+    <li>In the app: <strong>Settings → Ad privacy</strong> (where shown) — change
+      or withdraw your consent.</li>
+    <li>Google: <a href="https://adssettings.google.com/" rel="noopener">Ad
+      Settings</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google's
+      Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>Request deletion by email</h2>
+  <p>
+    If you want help with a deletion request, email
+    <a href="mailto:jcradyn@gmail.com?subject=Arrow%20Out%20data%20deletion">jcradyn@gmail.com</a>
+    with the subject “Arrow Out data deletion” and describe what you want
+    deleted. Do not send passwords. We will respond within 30 days. Because the
+    developer holds no game data, most requests resolve to the steps above;
+    anything held by Google is covered by Google's own deletion tools.
+  </p>
+
+  <div class="note">
+    Arrow Out collects no name, email address, contacts, photos, or precise
+    location, and has no user accounts.
+  </div>
+
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a> · Developer: Johan Radyn
+  </footer>
+</main>
+</body>
+</html>
